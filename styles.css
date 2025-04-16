@@ -44,24 +44,32 @@ footer {
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
-  font-size: 1.2rem;
+}
+
+.button-container {
+  margin-top: 40px;
+  text-align: center;
 }
 
 .play-again-btn {
-  padding: 14px 30px;
-  background-color: #ff595e;
-  color: #fff;
-  font-size: 22px;
+  padding: 12px 24px;
+  background-color: #ff6b6b;
+  color: white;
+  font-size: 18px;
   font-family: 'Indie Flower', cursive;
   border: none;
-  border-radius: 14px;
+  border-radius: 12px;
   cursor: pointer;
-  margin-top: 40px;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
-  transition: all 0.3s ease;
+  box-shadow: 0 6px 15px rgba(255, 89, 94, 0.4);
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .play-again-btn:hover {
-  background-color: #e14e52;
+  background-color: #ff4d4d;
   transform: scale(1.05);
+}
+
+.play-again-btn:active {
+  transform: scale(0.95);
+  box-shadow: 0 2px 8px rgba(255, 89, 94, 0.4);
 }
