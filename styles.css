@@ -7,7 +7,6 @@
 .dice {
   text-align: center;
   display: inline-block;
-
 }
 
 body {
@@ -45,24 +44,24 @@ footer {
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
-
+  font-size: 1.2rem;
 }
 
 .play-again-btn {
-  padding: 12px 24px;
-  background-color: #4CAF50;
-  color: white;
-  font-size: 18px;
+  padding: 14px 30px;
+  background-color: #ff595e;
+  color: #fff;
+  font-size: 22px;
+  font-family: 'Indie Flower', cursive;
   border: none;
-  border-radius: 10px;
+  border-radius: 14px;
   cursor: pointer;
-  margin-top: 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 40px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
 }
 
 .play-again-btn:hover {
-  background-color: #45a049;
+  background-color: #e14e52;
   transform: scale(1.05);
 }
-
